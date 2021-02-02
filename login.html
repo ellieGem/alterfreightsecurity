@@ -1,0 +1,35 @@
+
+<script src="scripts/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="templates/css.css">
+<script src="templates/font-awesome/svg-with-js/js/fontawesome-all.min.js"></script>
+<style type="text/css">
+	html, body {background: #fff;}
+	.error_account{ color:#FF0004;}
+	#tracking_load{ display:none;}
+</style>
+
+<div class="f_book">
+	<form>
+    	<div class="t_f_book">Login</div>
+        <ul class="ul_f_book">
+        	<li>
+            	<input class="ipt_f_book" id="tracking_Username" type="text" placeholder="Username" name="login_email" value="" required>
+                <span class="icon_f_book">
+                	<i class="far fa-user"></i>
+                </span>
+            </li>
+            <li>            	
+                <input class="ipt_f_book" id="tracking_Password" type="password" placeholder="Password" name="login_pass" value="" required>
+                <span class="icon_f_book">
+                	<i class="far fa-lock"></i>
+                </span>
+            </li>
+            <li>
+            	<button type="buttom" class="btn_f_book" id="tracking_login" name="login">
+                	Login 
+                    <img id="tracking_load" src="imgs/loadcard.gif"/>
+                </button>
+            </li>
+        </ul>
+    </form>
+</div>
